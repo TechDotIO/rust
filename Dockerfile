@@ -1,6 +1,6 @@
 FROM buildpack-deps:jessie
 
-ENV RUST_VERSION=1.15.1
+ENV RUST_VERSION=1.16.0
 ENV RUST_ARCHIVE=rust-${RUST_VERSION}-x86_64-unknown-linux-gnu
 
 RUN curl -sSLO https://static.rust-lang.org/dist/${RUST_ARCHIVE}.tar.gz \
